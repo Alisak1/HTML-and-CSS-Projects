@@ -1,0 +1,89 @@
+<!DOCUTYPE HTML>
+<html>
+  <body>
+    <!-- NAV -->
+    <div>
+      <div>
+        <ul>
+          <a href="#home" id="link"><li>HOME</li>
+          <a href="#gallery" id="link"><li>GALLERY</li>
+          <a href="#contact" id="link"><li>CONTACT</li>
+        </ul>
+      </div>
+    </div>
+    <!-- END NAV --
+
+    <!-- HOME -->
+    <div id="home">
+      <div>
+        <div>
+          <h1>FLOWERS BY ALISA</h1>
+	  <p>Flower Arrangements for any occasion.</p>
+        </div>
+      </div>
+    </div>
+    <!-- END HOME -->
+
+    <!-- GALLERY -->
+    <section>
+      <div id="gallery">
+        <h1>GALLERY</h1>
+      </div>
+
+
+      <!-- VIDEO-CONTAINER 1 -->
+      <div>
+        <div>
+         <iframe width="420" height="315" src="file:///Users/alisak/myRepository/One-Page%20Website/Time-Lapse%20-%20Watch%20Flowers%20Bloom%20Before%20Your%20Eyes%20_%20Short%20Film%20Showcase-LjCzPp-MK48.mp4"></iframe>
+          <div>
+            <p>The wonder of flowers.</p>
+          </div>
+        </div>
+      </div>
+      <!-- END VIDEO-CONTAINER 1 --
+
+
+      <!-- PHOTO-CONTAINER 1 -->
+      <div>
+        <div>
+          <img src="./Images/Thumbs/flower_thumbnail_1.png" alt="DESERT SPRING Arrangement" style=”width:170px;height:240px;” />
+          <div>
+            <p>DESERT SPRING Arrangement.</p>
+          </div>
+        </div>
+      </div>
+      <!-- END PHOTO-CONTAINER 1 -->
+
+      <!-- PHOTO-CONTAINER 2 -->
+      <div>
+        <div>
+          <img src="./Images/Thumbs/flower_thumbnail_2.png" alt="FLORAL SPRING Arrangment" style=”width:170px;height:240px;” />
+          <div>
+            <p>FLORAL SPRING Arrangement/p>
+          </div>
+        </div>
+      </div>
+      <!-- END PHOTO-CONTAINER 2 -->
+
+    <!-- CONTACT -->
+    <section>
+      <div id="contact">
+ 	<form action="" method="get">
+	First name: <input type="text" name="First_Name"><br>
+	Last name: <input type="text" name="Last_Name"><br>
+	Email: <input type="email" name="Email"><br>
+	Message: <input type="email" name="Message"><br>
+	<input type="submit" value="Submit"
+       </div>
+      <!-- END PHOTO-CONTAINER 2 -->
+	</form>
+
+
+      <!-- FOOTER -->
+      <div>
+        www.flowersbyAlisa.space &nbsp;| &nbsp; &copy; 2022
+      </div>
+      <!-- END FOOTER -->
+
+  </body>
+</html>
