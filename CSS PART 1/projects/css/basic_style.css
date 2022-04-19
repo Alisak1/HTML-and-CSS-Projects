@@ -5,7 +5,7 @@ body {
 h1 {
 	color: rgba(8, 141, 165, 1);
 	margin-left: 100px;
-	text-shadow 1px .5px 4px rgba(0,0,0, 0.6);
+	text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
 .container {
@@ -14,14 +14,14 @@ h1 {
 	background-color: #faebd7;
 	border: 2px solid black;
 	border-radius: 54;
-
+}
 /*-------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ---------------------------------------*/
 .container .squares:nth-child(-n+4) {
-	background-image: url ("../images/icons/thumbsup.png")
+	background-image: url ("../images/icons/thumbsup.png");
 	color: #fff;
-	float: #left;
+	float: left;
 	width: 100px;
 	height: 100px;
 	margin: 5px;
@@ -31,7 +31,6 @@ h1 {
 	transition: transform .5s ease-in-out;
 }
 
-}
 /*------------------------------------------------
      SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
 --------------------------------------------------*/
@@ -73,7 +72,7 @@ h1 {
 	animation-duration: 2.5a;
 	animation-iteration-count: infinite;
 	animation-timing-function: cubic-bezier(2.5,.2,.3,2);
-
+}
 .squares:nth-child(1):hover {
 	background: #13b4ff;
 }
@@ -93,7 +92,7 @@ h1 {
 /*------------------------------------------------
 	    ANIMATION EFFECT
 --------------------------------------------------*/
-@keyframes: race {
+@keyframes race {
 	0%, 100% {
 		transform: translateY(0px);
 		background-images: url("../images/icons/thumbsup.png")
