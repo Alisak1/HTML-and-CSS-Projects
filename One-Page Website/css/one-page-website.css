@@ -1,0 +1,42 @@
+html {
+    
+}
+
+body {
+    font-family: fantasy;
+    font-size: 20px;
+    height: 100px;
+    width: 400px;
+    margin: 30px;
+    border-radius: 3px;
+}
+
+section {
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.contact-form {
+    font-family: fangsong;
+    font-size: 20px;
+    outline: 3;
+    font-weight: 200;
+    color: #137ce6;
+    padding: 5px 20px;
+    width: 50%;
+    border: 1px solid #808080;
+    margin: 1px 2px;
+    border-radius: 15px;
+    background: rgb(249, 218, 249);
+    box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+.footer {
+    background-color: rgba(243, 241, 237, 0.3);
+    color: rgb(31, 31, 212);
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+}

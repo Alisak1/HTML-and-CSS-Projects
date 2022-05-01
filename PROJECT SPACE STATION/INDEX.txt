@@ -1,189 +1,191 @@
-<!DOCUTYPE HTML>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Space Station | Resort</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animation.css">
+	</head>
+<body>
+	
+	<!-- NAV -->
+	<div class="wrap">
+		<div class="menu-container">
+			<ul class="menu">
+				<a href="#home"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>RESERVATIONS</li></a>
+			</ul>
+		</div>	
+	</div>
+	<!-- END NAV -->
 
-  <head>
-    <meta charset="utf-8">
-    <title>The Space Station | Resort</title>
-  </head>
+	<!-- HOME -->
+	<div id="home">
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">The Space Station</span>
+			</div>
+		</div>
+	</div>
+	<!-- END HOME -->
 
-  <body>
+	<!-- GALLERY -->
+	<section id="gallery">
+		<div class="container">
+			<h1>Gallery</h1>
+				<div class="flex-container">
 
-    <!-- NAV -->
-    <div>
-      <div>
-        <ul>
-          <a href="#home" id="link"><li>HOME</li>
-          <a href="#gallery" id="link"><li>GALLERY</li>
-          <a href="#reservations" id="link"><li>RESERVATIONS</li>
-        </ul>
-      </div>
-    </div>
-    <!-- END NAV -->
+					<!-- PHOTO-CONTAINER 1 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_1.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 1 -->
 
-    <!-- HOME -->
-    <div id="home">
-      <div>
-        <div>
-          <span>MOVIE RELEASES IN APRIL 2022</span>
-        </div>
-      </div>
-    </div>
-    <!-- END HOME -->
+					<!-- PHOTO-CONTAINER 2 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_2.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 2 -->
 
-    <!-- GALLERY -->
-    <section>
-      <div id="gallery">
-        <h1>GALLERY</h1>
-      </div>
+					<!-- PHOTO-CONTAINER 3 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_3.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 3 -->
 
-      <!-- PHOTO-CONTAINER 1 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_1.png" alt="Morbius movie poster" style=”width:170px;height:240px;” />
-          <div>
-             <h3>Click to Enlarge</h3>
-            <p>Morbius</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 1 -->
+					<!-- PHOTO-CONTAINER 4 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_4.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 4 -->
 
-      <!-- PHOTO-CONTAINER 2 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_2.png" alt="Contractor movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>Contractor</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 2 -->
+					<!-- PHOTO-CONTAINER 5 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_5.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 5 -->
 
-      <!-- PHOTO-CONTAINER 3 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_3.png" alt="Ambulance movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>Ambulance</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 3 -->
+					<!-- PHOTO-CONTAINER 6 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_6.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 6 -->
 
-      <!-- PHOTO-CONTAINER 4 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_4.png" alt="Sonic The Hedgehog 2 movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>Sonic The Hedgehog 2</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 4 -->
+					<!-- PHOTO-CONTAINER 7 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_7.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 7 -->
 
-<!-- PHOTO-CONTAINER 5 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_5.png" alt="The Secrets of Dumbledore movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>The Secrets of Dumbledore</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 5 -->
+					<!-- PHOTO-CONTAINER 8 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_8.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 8 -->
 
-<!-- PHOTO-CONTAINER 6 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_6.png" alt="The Northman movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>The Northman</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 6 -->
+					<!-- PHOTO-CONTAINER 9 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumbs/thumbnail_9.jpeg" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>	
+					<!-- END PHOTO-CONTAINER 9 -->
+		    </div>
+		</div>
+	</section>
+	<!-- END GALLERY -->
 
-<!-- PHOTO-CONTAINER 7 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_7.png" alt="Massive Talent movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>Massive Talent</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 7 -->
+	<!-- RSVP -->
+	<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Reservations</h1>
+				<div class="reservations">
+					<h2><span>Your adventure is just around the moon.</span>
+						<br/>Reserve your flight today!
+					</h2>
+					<p class="rsvp-text">
+						Please provide us with your basic contact information.
+					</p>
+					<div class="form-rsvp">
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="" placeholder="First Name">
+							<input class="rsvp" type="text" value="" placeholder="Last Name">
+							<input class="rsvp" type="text" value="" placeholder="Email Address">
+							<input class="rsvp" type="text" value="" placeholder="Phone Number">
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+							<div class="submit">
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END RSVP -->
 
-<!-- PHOTO-CONTAINER 8 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_8.png" alt="Operations Mincemeat movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>Operation Mincemeat</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 8 -->
+	<!-- FOOTER -->
+	<div id="footer">
+		www.thespacestation.space  &nbsp;|&nbsp; &copy; 2022
+	</div>
+	<!-- END FOOTER -->
 
-<!-- PHOTO-CONTAINER 9 -->
-      <div>
-        <div>
-          <img src="./Images/Thumb/thumbnail_9.png" alt="Downton Abbey A New Era movie poster" style=”width:170px;height:240px;” />
-          <div>
-            <h3>Click to Enlarge</h3>
-            <p>Downton Abbey A New Era</p>
-          </div>
-        </div>
-      </div>
-      <!-- END PHOTO-CONTAINER 9 -->
-
-      </div>
-      </div>
-    </section>
-
-    <!-- RSVP -->
-    <div id="reservations">
-      <div>
-        <div>
-          <h1>Reservations</h1>
-          <div>
-            <h2><span>Your adventure is just around the corner! </span>
-              <br />Reserve your movie ticket today!
-              <h2>
-                <p>
-                  Please provide us with your basic contact information
-                </p>
-                <div>
-                  <form action="" method="post">
-                    <input class="rsvp" type="text" value="First Name">
-                    <input class="rsvp" type="text" value="Last Name">
-                    <input class="rsvp" type="text" value="Email Address">
-                    <input class="rsvp" type="text" value="Phone Number">
-                    <div class="form-space">
-                      <label class="terms">Terms and Conditions</label>
-                    </div>
-                    <div>
-                      <input type="submit" value="Submit">
-                    </div>
-                  </form>
-                </div>
-          </div>
-        </div>
-      </div>
-      </section>
-      <!-- END RSVP -->
-
-      <!-- FOOTER -->
-      <div>
-        www.movieinfo.space &nbsp;| &nbsp; &copy; 2022
-      </div>
-      <!-- END FOOTER -->
-
-  </html>
+</body>
+</html>

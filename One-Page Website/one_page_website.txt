@@ -1,5 +1,10 @@
 <!DOCUTYPE HTML>
 <html>
+	<head>
+		<meta charset="utf-8">
+		<title>My WebPage</title>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+	</head>
   <body>
     <!-- NAV -->
     <div>
