@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My WebPage</title>
+    <link rel="stylesheet" href="./CSS/one_page_website.css">
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <ul>
+        <li><a href="#home" id="link">HOME</a></li>
+        <li><a href="#gallery" id="link">GALLERY</a></li>
+        <li><a href="#contact" id="link">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- HOME -->
+    <section id="home">
+      <h1>FLOWERS BY ALISA</h1>
+      <p>Flower Arrangements for any occasion.</p>
+    </section>
+    <!-- END HOME -->
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h1>GALLERY</h1>
+
+      <!-- VIDEO-CONTAINER 1 -->
+      <div class="video-container">
+        <iframe width="420" height="315" 
+          src="https://www.youtube.com/embed/LjCzPp-MK48" 
+          frameborder="0" allowfullscreen>
+        </iframe>
+        <p>The wonder of flowers.</p>
+      </div>
+      <!-- END VIDEO-CONTAINER 1 -->
+
+      <!-- PHOTO-CONTAINER 1 -->
+      <div class="photo-container">
+        <img src="./Images/Thumbs/flower_thumbnail_1.png" alt="DESERT SPRING Arrangement" style="width:170px;height:240px;" />
+        <p>DESERT SPRING Arrangement.</p>
+      </div>
+      <!-- END PHOTO-CONTAINER 1 -->
+
+      <!-- PHOTO-CONTAINER 2 -->
+      <div class="photo-container">
+        <img src="./Images/Thumbs/flower_thumbnail_2.png" alt="FLORAL SPRING Arrangement" style="width:170px;height:240px;" />
+        <p>FLORAL SPRING Arrangement.</p>
+      </div>
+      <!-- END PHOTO-CONTAINER 2 -->
+    </section>
+    <!-- END GALLERY -->
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <form action="" method="get">
+        <label>First name: <input type="text" name="First_Name"></label><br>
+        <label>Last name: <input type="text" name="Last_Name"></label><br>
+        <label>Email: <input type="email" name="Email"></label><br>
+        <label>Message: <input type="text" name="Message"></label><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>www.flowersbyAlisa.space &nbsp;| &nbsp;&copy; 2022</p>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+</html>

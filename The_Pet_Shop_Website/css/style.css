@@ -1,0 +1,230 @@
+/* import link for the Roboto font from fonts.google.com* */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: white;
+    overflow-x: hidden; /*Hides the bottom left right scroll bar when elements stretch beyond the screen border*/
+}
+
+/* NAVBAR */
+
+li{
+    display: inline;
+    padding: 5px;
+}
+
+a{
+    font-family: "Roboto", sans-serif;/* Font form fonts.google.com */
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px .5px 4px rgba(46, 31, 31, 0.5);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #769fba; 
+    /* changes the color of the anchor element when the user hovers over it */
+}
+
+.nav-bar{
+    background-color: #216391;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* The following minus margins stretch the navbar background beyond hte web browser screen edge */
+    margin-top: -8px;
+    margin-left: -10px;
+    border-right: -10px;
+    position: sticky; /*Creates a sticky navbar that stays at the top of the page when scrolling*/
+    top: 0; /*Tells the browser to stick the element a the top of the pages based on user scrolling */
+    z-index: 9;
+}
+
+/* Creates line in the Navbar */
+#nav-border{
+    padding-bottom: 10px;
+    border-bottom: 3px solid#ffffff;
+}
+
+/* HEADERS */
+h1,h2,h3,h4,h5{
+    /* color: #0a3f63; */
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    text-shadow: 1px 0.5px 4px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.19);
+
+}
+
+.column{
+    float: left;
+    width: 48%;/*Places the images side by side when the float property is none*/
+    padding: 10px;
+}
+
+/*Groups elements inside a div element together and forces any floating elements out side of hte dive under it with this class selector*/
+.container{
+    background-size:100% !important;
+    margin: 0 auto;
+
+    padding-top: 5px; /*Padding will add an inline space to the elements don't sit on the edge of the div*/
+    padding-bottom: 10px;
+}
+
+/*This is part of the .container class selector to format the elements to display in a table like format*/
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Sets up the size of each div that holds an image so the image can be centered */
+.image-container{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/* Creates a text color change animate on the h1 tags for the home and contact page headers */
+@keyframes color-text {
+    0% { color: #b5e1ff; }
+    100% { color: #0a3f63; }
+}
+
+/* Calls the animation by its name in a CSS selector so it can be applied to a specific HTML element */
+ .animate-text {
+      animation: color-text 4s infinite alternate;
+
+    }
+
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#contact-h3{
+    text-shadow: none;
+}
+
+#cat{
+    background-color: #d7eaf7;
+}
+
+#dog{
+    background-color: #c3e0c5;
+}
+
+#rabbits{
+    background-color: #d7eaf7;
+}
+
+#fish{
+    background-color: #c3e0c5;
+}
+
+#guineapigs{
+    background-color: #d7eaf7;
+}
+
+#reptiles{
+    background-color: #c3e0c5;
+}
+
+/* Sets up the properties for the overlay on each image */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(0,0,0);
+    opacity: 0.0;
+}
+/* The :hover pseudo-class triggers the overlay class to 60% opacity when a user hovers their mouse over an image */
+.overlay:hover{
+    opacity: 0.6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2; /* Optional: gives it some visual separation */
+}
+
+footer table {
+  margin: 0 auto; /* This centers the table horizontally */
+}
+
+footer td {
+  padding: 10px 20px;
+  text-align: center; /* Center text inside each cell */
+}
+
+/* Section wrapper for the form */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  min-height: 150px; /* Increase vertical size */
+  resize: vertical;  /* Allow user to resize if they want */
+}
+
+form label {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-submit {
+  align-self: center;
+  margin-bottom: 20px;
+}

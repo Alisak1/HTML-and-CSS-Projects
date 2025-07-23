@@ -1,0 +1,45 @@
+table {
+    border: 1px solid silver;
+}
+
+td:hover {
+    background-color: yellow;
+    color: black;
+}
+
+tr, th {
+    background-color: black;
+    color: cornsilk;
+}
+
+tr, td {
+    background-color: darkgreen;
+    color: white;
+}
+
+table {
+    border: 1px solid silver;
+}
+
+td:hover {
+    background-color: yellow;
+    color: black;
+}
+
+tr, th {
+    background-color: black;
+    color: cornsilk;
+}
+
+tr, td{
+    background-color: darkgreen;
+    color: white;
+}
+
+ol {
+  list-style-type: upper-alpha; /* Applies Roman numerals: I, II, III... */
+}
+
+ul {
+  list-style-type: disc; /* Applies square bullets */
+}

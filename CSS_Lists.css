@@ -1,0 +1,17 @@
+ol {
+  	list-style-type: lower-roman;
+	color: #DDA0DD;
+	background: #663399; 
+	font-weight: bold;
+	text-alignment: left;
+	text-shadow: 2px 2px #000000;
+}
+
+ul {
+	list-style-type: circle;
+	color: #F8F8FF;
+	background: #5F9EA0; 
+	font-weight: bold;
+	text-alignment: left;
+}
+
